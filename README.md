@@ -1,3 +1,5 @@
+![Screenshot of the theme](preview.png "Preview")
+
 # Pixel Perfect Folder Icons for KDE Plasma
 
 You love your icon theme but the folders don't quite live up to it?

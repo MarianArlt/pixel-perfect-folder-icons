@@ -1,0 +1,142 @@
+[Icon Theme]
+Name=NixOS
+Name[ar]=NixOS
+Name[ast]=NixOS
+Name[ca]=NixOS
+Name[ca@valencia]=NixOS
+Name[cs]=NixOS
+Name[da]=NixOS
+Name[de]=NixOS
+Name[el]=NixOS
+Name[en_GB]=NixOS
+Name[es]=NixOS
+Name[et]=NixOS
+Name[eu]=NixOS
+Name[fi]=NixOS
+Name[fr]=NixOS
+Name[gd]=NixOS
+Name[gl]=NixOS
+Name[ia]=NixOS
+Name[id]=NixOS
+Name[it]=NixOS
+Name[ko]=NixOS
+Name[nl]=NixOS
+Name[nn]=NixOS
+Name[pl]=Bryza
+Name[pt]=NixOS
+Name[pt_BR]=NixOS
+Name[ru]=NixOS
+Name[sk]=NixOS
+Name[sl]=NixOS
+Name[sr]=NixOS
+Name[sr@ijekavian]=NixOS
+Name[sr@ijekavianlatin]=NixOS
+Name[sr@latin]=NixOS
+Name[sv]=NixOS
+Name[uk]=NixOS
+Name[x-test]=xxNixOSxx
+Name[zh_CN]=NixOS
+Name[zh_TW]=NixOS
+
+Comment=NixOS folder icons
+Comment[de]=NixOS Ordner icons
+Comment[en_GB]=NixOS folder icons
+Comment[es]=Íconos de carpetas NixOS
+Comment[x-test]=xxNixOS folder iconsxx
+
+DisplayDepth=32
+Inherits=breeze,Adwaita,hicolor
+Example=folder
+FollowsColorScheme=true
+
+DesktopDefault=48
+DesktopSizes=16,22,32,48,64,128,256
+ToolbarDefault=22
+ToolbarSizes=16,22,32,48
+MainToolbarDefault=22
+MainToolbarSizes=16,22,32,48
+SmallDefault=16
+SmallSizes=16,22,32,48
+PanelDefault=48
+PanelSizes=16,22,32,48,64,128,256
+DialogDefault=32
+DialogSizes=16,22,32,48,64,128,256
+
+KDE-Extensions=.svg
+
+########## Directories
+########## ordered by category and alphabetically
+
+Directories=apps/16,apps/22,apps/32,apps/48,apps/64,places/16,places/22,places/32,places/64,places/symbolic
+
+########## Apps
+########## ordered by size
+
+#16x16 - Fixed size - Application icon(s) for Dolphin sidebar - OPTIONAL + DO_NOT_USE_ANYWHERE_ELSE - Monochrome
+[apps/16]
+Size=16
+Context=Applications
+Type=Fixed
+
+#22x22 - Fixed size - Workaround icon(s) for toolbar(s) button(s) e.g. Dolphin Open Terminal/About Dolphin/About KDE buttons - WRONG_ICON_USAGE_BY_APP - Monochrome
+[apps/22]
+Size=22
+Context=Applications
+Type=Fixed
+
+#32x32 - Fixed size - For System Settings icons >!!!ONLY!!!< - Scalable to the following sizes: 32x32 (default), 64x64, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
+[apps/32]
+Size=32
+Context=Applications
+Type=Fixed
+
+#48x48 - Scalable - For application icons >!!!ONLY!!!< - Scalable to the following sizes: 48x48 (default), 96x96 and 24x24 (not recommended) - DO_NOT_USE_ANYWHERE_ELSE - Color
+[apps/48]
+Size=48
+Context=Applications
+Type=Scalable
+MinSize=48
+MaxSize=256
+
+########## Places
+########## ordered by size
+
+#16x16 - Fixed size - For small folder icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
+[places/16]
+Size=16
+Context=Places
+Type=Fixed
+MinSize=16
+
+#22x22 - Fixed size - Workaround icon(s) for toolbar(s) button(s) e.g. KMail trash icon - WRONG_ICON_USAGE_BY_APP - Monochrome
+[places/22]
+Size=22
+Context=Places
+Type=Fixed
+
+#32x32 - Scalable - For folder icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 32x32, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
+[places/32]
+Size=32
+Context=Places
+Type=Scalable
+MinSize=24
+MaxSize=48
+
+#64x64 - Scalable - For folder icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 32x32, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
+[places/64]
+Size=64
+Context=Places
+Type=Scalable
+MinSize=32
+MaxSize=256
+
+# Gnome symbolic icons
+
+[places/symbolic]
+Context=Places
+Size=16
+MinSize=8
+MaxSize=512
+Type=Scalable
+
+########## EOF

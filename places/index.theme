@@ -1,6 +1,6 @@
 [Icon Theme]
-Name=Pixel Perfect Folders
-Comment=Finely crafted folder icons for many uses
+Name=NixOS Folders
+Comment=NixOS folder icons
 
 DisplayDepth=32
 Inherits=breeze,gnome,deepin,hicolor

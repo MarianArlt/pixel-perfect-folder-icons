@@ -5,8 +5,9 @@
 You love your icon theme but the folders don't quite live up to it?
 Pixel Perfect folders to the rescue!  
 
-This set includes *more than 80* different **finely crafted** folder icons including 32px versions like: remote-backup, disk-vinyl, dev-sass, gdrive and many more!  
+This set includes **more than 80** different **finely crafted** folder icons including 32px versions like: **remote-backup**, **disk-vinyl**, **dev-sass**, **gdrive** and many more!  
 The default folder, including colored versions and the kde system-file-manager app, even have pixel perfect resolutions for 22 and 16 pixels.  
+
 Each icon is meticulously drawn to their resolution for that perfect sharp look.
 
 ### Installing
